@@ -1,0 +1,30 @@
+button {
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  height: 50px;
+  padding: 0 20px;
+  color: var(--grayBlue);
+  border-bottom: 5px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: var(--softBlue);
+  color: white;
+}
+
+.red {
+  background-color: var(--softRed);
+  color: white;
+  box-shadow: none;
+  border: 1px solid transparent;
+}
+
+.red:hover {
+  background-color: white;
+  color: var(--softRed);
+  border: 1px solid var(--softRed);
+}

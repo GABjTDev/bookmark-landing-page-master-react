@@ -1,0 +1,52 @@
+.features {
+  margin-bottom: 100px;
+}
+
+.tabs button {
+  box-shadow: none;
+  border-bottom: 1px solid var(--grayBlue);
+  border-radius: 0;
+  background-color: white;
+}
+
+.tabs button.active {
+  border-bottom: 5px solid var(--softRed);
+  color: var(--veryDarkBlue);
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs {
+    flex-direction: row;
+  }
+
+  .tabs button {
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: white;
+  }
+
+  .tabs button:hover {
+    color: var(--softRed);
+  }
+
+  .features .box-text {
+    width: 600px;
+  }
+
+  .features .box-text p {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .tabs button.active {
+    border-bottom: 5px solid var(--softRed);
+    color: var(--veryDarkBlue);
+  }
+}

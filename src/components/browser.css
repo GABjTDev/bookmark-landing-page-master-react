@@ -1,0 +1,41 @@
+.grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px 0;
+}
+
+.grid button {
+  padding: 0 40px;
+}
+
+.grid-img {
+  margin-bottom: 20px;
+}
+
+.grid h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.grid p {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    height: 300px;
+    padding: 10px;
+  }
+
+  .grid:nth-child(2) {
+    align-self: center;
+  }
+
+  .grid:nth-child(3) {
+    align-self: flex-end;
+  }
+}

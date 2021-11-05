@@ -1,0 +1,48 @@
+.questions {
+  margin-bottom: 100px;
+}
+
+.questions h2 {
+  font-size: 1.15em;
+}
+
+.answers {
+  padding: 0 30px;
+  margin-bottom: 60px;
+}
+
+.answers button {
+  margin: 0 auto;
+}
+
+.title-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-question h3 {
+  font-size: 0.7em;
+  font-weight: 500;
+  text-align: left;
+}
+
+.box-answer {
+  height: 46px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.title-question:hover h3 {
+  color: var(--softRed);
+}
+
+.box-answer.active {
+  height: auto;
+  overflow: hidden;
+}
+
+.more-info {
+  display: flex;
+  justify-content: center;
+}
